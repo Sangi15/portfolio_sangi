@@ -123,7 +123,7 @@ class HomeContent extends StatelessWidget {
 
   // ✅ Now opens PDF in new tab instead of direct download
   void _downloadCV() {
-    const cvPath = 'asset/files/Sangeetha_Segar_CV.pdf';
+    const cvPath = 'asset/files/Sangeetha_Segar_CVR.pdf';
     html.window.open(cvPath, '_blank'); // Open PDF in new browser tab
   }
 
